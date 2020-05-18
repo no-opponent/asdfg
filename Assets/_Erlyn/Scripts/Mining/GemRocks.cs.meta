@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 25f5dd227019a6c439f15ee8f265283f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - instaMinerals: {instanceID: 0}
+  - destroyParticles: {fileID: 198330214428362902, guid: a97415c6b57076f41a6621a7b51d63a3,
+      type: 3}
+  - hitParticles: {fileID: 198499209413112314, guid: f01c1eba69de19e44b04d8d651aaac37,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

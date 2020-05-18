@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 1ba012ceaeb05f3488d40c3b2f034fac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - potatoe: {fileID: 5131673874923856071, guid: f07466feab660604c8ce8c9529fe6f81,
+      type: 3}
+  - sprout: {fileID: 1590493356214838302, guid: 654676ab8dc24f148a931e4afdb95af4,
+      type: 3}
+  - seedling: {fileID: 7099687974673500398, guid: 7912f795b18642c4999fbd764c759aa4,
+      type: 3}
+  - vegetative: {fileID: 8742234254579569343, guid: 56201d84556aa6c46a8483909f26f38d,
+      type: 3}
+  - budding: {fileID: 7590243086850004147, guid: b5c807d58189ce64b840b251e862e41d,
+      type: 3}
+  - flowering: {fileID: 1961966529930377946, guid: 79aa593ef3607e24ea3ae9ba179d05c4,
+      type: 3}
+  - ripening: {fileID: 5214122396398572151, guid: dcebf3849eea07b4baef9d6f09115e80,
+      type: 3}
+  - rotting: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: fe90f720b62e6ec4f901943934d534d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - copperN: {fileID: 62247500599873956, guid: 2bc8234fba9601f41b571d65b6ceda86, type: 3}
+  - silverN: {fileID: 7029299697089045385, guid: 30f4538de49dde544965d958c745bc4d,
+      type: 3}
+  - goldN: {fileID: 353575162003180306, guid: 9d0ccfe86a1b3974fb461601039ed01c, type: 3}
+  - diamond: {fileID: 1732202409086353292, guid: 9cba8e525bf6d47478834c539ed1aacd,
+      type: 3}
+  - gemstone_01: {fileID: 1997419858969065774, guid: 5fbbfab2723890c48a28adc4bf02aacc,
+      type: 3}
+  - gemstone_02: {fileID: 8730153181814712428, guid: 109797c5dc4e441459c380c8af61d7bc,
+      type: 3}
+  - gemstone_03: {fileID: 1453250045382937257, guid: d8dd4e3a75787394bb576e42c0fda141,
+      type: 3}
+  - rock_gems_01: {fileID: 8759788341512668553, guid: 0744d4df4fb1a3446b468ea6ac0964b9,
+      type: 3}
+  - rock_gems_02: {fileID: 4022117532487026104, guid: 444e06c663c12934485e44dcd9086735,
+      type: 3}
+  - rock_gems_03: {fileID: 148634239393196356, guid: 87cee9b1c0129a0469a378ee607ad71c,
+      type: 3}
+  - rock_gems_04: {fileID: 1391523430031032844, guid: ccce8c9544d21a749979930e13bdc404,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
