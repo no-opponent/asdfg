@@ -36,8 +36,7 @@ public class GameManagement : MonoBehaviour
     } 
 
     public void InformationalText (string text)
-    {
-        Debug.Log("InformationalText");
+    { 
         StartCoroutine("ChangeInfoText", text);
     }
 
@@ -45,18 +44,38 @@ public class GameManagement : MonoBehaviour
     {
         RectTransform rectTransform = infoTextPanel.GetComponent<RectTransform>();
 
-        Vector2 infoTextClosedPos = new Vector2(22.5f, 50);
-        Vector2 infoTextOpenPos = new Vector2(22.5f, 0);
+        //Vector2 infoTextClosedPos = new Vector2(22.5f, 100);
+        //Vector2 infoTextOpenPos = new Vector2(22.5f, 0);
+
+        Vector3 infoTextClosedPos = new Vector3(451.5f, 574.5f, 0);
+        Vector3 infoTextOpenPos = new Vector3(451.5f, 474.5f, 0);
+
+        Debug.Log(rectTransform.position);
+        rectTransform.position = infoTextClosedPos;
+        Debug.Log(rectTransform.position);
 
         infoTextPanel.GetComponentInChildren<TextMeshProUGUI>().text = text;
 
         // Opening
-        
+        while (rectTransform.position.y > infoTextOpenPos.y)
+        { 
+            rectTransform.position = Vector2.Lerp(rectTransform.position, infoTextOpenPos, Time.deltaTime * 3f); 
+            
+            yield return null;
+        }
 
-        //WaitForSeconds(3);
+        Debug.Log("after first while");
+        //yield return new WaitForSeconds(1);
 
+        // Closing
+        while (rectTransform.position.y < infoTextClosedPos.y)
+        {
+            Debug.Log("second while");
+            rectTransform.position = Vector2.Lerp(rectTransform.position, infoTextClosedPos, Time.deltaTime * 3f);
 
-        return null;
+            yield return null;
+        }
+
     }
 
 }
