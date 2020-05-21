@@ -9,17 +9,75 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bdcf035cb63d4221951bc2ba36a9d3c, type: 3}
+  m_Script: {fileID: 11500000, guid: cbaa535129ca14f23b1ae48bfda466d4, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: cde67366103be541be52fe0865b4da83
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: adaf60c1c2139742a9c9c5acd8bef4d0
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 15316e65bcb799479a951a7aa9cd1759
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: efb718af57bf574fb4829d929ca12f8e
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: fdbd2942bc413c42b67322bac83395f4
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: fd3b9d3929a6334385d0dc0e2c3efaf0
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 52c4c07fa5c8e0408516898e8f4fd87d
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: bd9e396443234544805a1d591d2c46b7
+    GuidInternal: 
+    m_lastTime: -8586116158624775808
+    List: []
+  ExpandedItems:
+  - /ProjectErlyn
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
