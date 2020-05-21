@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/asdfg/Assets/Audio/ProjectErlyn/</ProjectRoot>
+		<SourceFilesRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/asdfg/Assets/Audio/ProjectErlyn/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/asdfg/Assets/Audio/ProjectErlyn/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/asdfg/Assets/Audio/ProjectErlyn/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX">
+			<ObjectPath>\SoundBanks\Erlyn\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

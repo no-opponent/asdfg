@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB69C3AC-A5F0-4DBB-8DCC-F13D52C1BAD0}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Erlyn" ID="{EB69C3AC-A5F0-4DBB-8DCC-F13D52C1BAD0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Test" ID="{679745D5-89CA-42CC-8EB7-F172B8BA7040}">
+					<ChildrenList>
+						<Action Name="" ID="{F3D939C3-30C1-47CD-9E5B-A13653EA0E5A}" ShortID="899376414">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woodlands_Day_Amb_QuadBNC_EQ" ID="{A13EA16C-5B1D-44C3-91A3-48EBB60529A2}" WorkUnitID="{FCDBDF73-242B-4FA4-9F67-E47B89BCCA3F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

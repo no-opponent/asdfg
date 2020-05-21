@@ -42,6 +42,21 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586116158624775808
     List: []
+  - PhysicalPath: SoundBanks/Erlyn.wwu
+    ParentPath: Erlyn
+    guid: c1775885b963fe42a2bc148048733806
+    GuidInternal: 
+    m_lastTime: -8586115601774775808
+    List:
+    - name: General
+      guid: 18d5391c92494744ad1226854acfe528
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Erlyn
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 7
+      Path: Erlyn/General
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -49,6 +64,24 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586116158624775808
     List: []
+  - PhysicalPath: Events/Erlyn.wwu
+    ParentPath: Erlyn
+    guid: acc369ebf0a5bb4d8dccf13d52c1bad0
+    GuidInternal: 
+    m_lastTime: -8586115579874775808
+    List:
+    - name: Play_Test
+      guid: d5459767ca89cc428eb7f172b8ba7040
+      id: 3187507146
+      PathAndIcons:
+      - ElementName: Erlyn
+        ObjectType: 12
+      - ElementName: Play_Test
+        ObjectType: 3
+      Path: Erlyn/Play_Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -79,5 +112,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /ProjectErlyn
+  - /ProjectErlyn/Auxiliary Busses
+  - /ProjectErlyn/Auxiliary Busses/Default Work Unit
+  - /ProjectErlyn/Events
+  - /ProjectErlyn/Events/Erlyn
+  - /ProjectErlyn/SoundBanks
+  - /ProjectErlyn/SoundBanks/Erlyn
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

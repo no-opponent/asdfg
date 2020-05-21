@@ -10,5 +10,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2019.2.2.7275/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../Wwise Sessions/ProjectErlyn/ProjectErlyn.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../asdfg/Assets/Audio/ProjectErlyn/ProjectErlyn.wproj</WwiseProjectPath>
 </WwiseSettings>
