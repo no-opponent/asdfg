@@ -77,8 +77,7 @@ public class Interactable : MonoBehaviour
             {
                 if (GetComponent<Planter>().state > 0)  // There is a plant. 0 = no plant
                 {
-                    if (tool[0] == 0 && tool[1] >= GetComponent<Planter>().planterQuality && 
-                        player.state == "idle")
+                    if (tool[0] == 0 && player.state == "idle")
                     { // Watering
                         GetComponent<Planter>().GrowPlant();
                         GetComponent<Planter>().WaterPlant();

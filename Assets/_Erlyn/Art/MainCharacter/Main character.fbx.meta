@@ -30,7 +30,22 @@ ModelImporter:
   - first:
       74: 5535669140180055065
     second: MainCharacter_rig|Mining
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_human_material
+    second: {fileID: 2100000, guid: e2ec7b28519308d488925547988ccb88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Heads_A_material
+    second: {fileID: 2100000, guid: 840149d7b4fa632478227c14d9dd96e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steampunk_glasses
+    second: {fileID: 2100000, guid: 6c2ddb94ba522e54b912352b69d16c2d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

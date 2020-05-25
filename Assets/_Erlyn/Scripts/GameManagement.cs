@@ -11,15 +11,18 @@ public class GameManagement : MonoBehaviour
     public GameObject interactText;
 
     public GameObject infoTextPanel;
+    bool infoTextOn = false;
     
     [HideInInspector]
     public PlayerMovement playerMov;
 
     private void Start()
     {
-        playerMov = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>(); 
+        playerMov = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+
+        infoTextPanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(22.5f, 150);
     }
-    
+
     public void InteractText(GameObject interactable, string text)
     {
         if (interactable != null)
@@ -37,44 +40,40 @@ public class GameManagement : MonoBehaviour
 
     public void InformationalText (string text)
     { 
-        StartCoroutine("ChangeInfoText", text);
+        if (!infoTextOn)
+            StartCoroutine("ChangeInfoText", text);
     }
 
     IEnumerator ChangeInfoText (string text)
     {
+        infoTextOn = true;
+
         RectTransform rectTransform = infoTextPanel.GetComponent<RectTransform>();
 
-        //Vector2 infoTextClosedPos = new Vector2(22.5f, 100);
-        //Vector2 infoTextOpenPos = new Vector2(22.5f, 0);
-
-        Vector3 infoTextClosedPos = new Vector3(451.5f, 574.5f, 0);
-        Vector3 infoTextOpenPos = new Vector3(451.5f, 474.5f, 0);
-
-        Debug.Log(rectTransform.position);
-        rectTransform.position = infoTextClosedPos;
-        Debug.Log(rectTransform.position);
-
+        Vector2 infoTextClosedPos = new Vector2(22.5f, 150);
+        Vector2 infoTextOpenPos = new Vector2(22.5f, 0); 
+        
         infoTextPanel.GetComponentInChildren<TextMeshProUGUI>().text = text;
 
         // Opening
-        while (rectTransform.position.y > infoTextOpenPos.y)
+        while (Mathf.Floor(rectTransform.anchoredPosition.y) > infoTextOpenPos.y)
         { 
-            rectTransform.position = Vector2.Lerp(rectTransform.position, infoTextOpenPos, Time.deltaTime * 3f); 
+            rectTransform.anchoredPosition = Vector2.Lerp(rectTransform.anchoredPosition, infoTextOpenPos, Time.deltaTime * 3f); 
             
             yield return null;
-        }
+        } 
 
-        Debug.Log("after first while");
-        //yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
 
         // Closing
-        while (rectTransform.position.y < infoTextClosedPos.y)
-        {
-            Debug.Log("second while");
-            rectTransform.position = Vector2.Lerp(rectTransform.position, infoTextClosedPos, Time.deltaTime * 3f);
+        while (Mathf.Ceil(rectTransform.anchoredPosition.y) < infoTextClosedPos.y)
+        { 
+            rectTransform.anchoredPosition = Vector2.Lerp(rectTransform.anchoredPosition, infoTextClosedPos, Time.deltaTime * 3f);
 
             yield return null;
         }
+
+        infoTextOn = false;
 
     }
 

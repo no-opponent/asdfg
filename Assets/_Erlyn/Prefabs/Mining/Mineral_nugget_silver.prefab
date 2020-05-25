@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6329333239397093786}
   - component: {fileID: 3066187954752400300}
   - component: {fileID: 8769001984978245461}
+  - component: {fileID: 55723654486590233}
   - component: {fileID: 5119726440102812190}
   - component: {fileID: 5750836290591287232}
   m_Layer: 0
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &55723654486590233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029299697089045385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.47134006, y: 0.3956517, z: 0.37291473}
+  m_Center: {x: -0.024729304, y: 0.008182511, z: 0.044872694}
 --- !u!114 &5119726440102812190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,4 +126,3 @@ MonoBehaviour:
   description: 
   icon: {fileID: 21300000, guid: 011832a935191434da14ee7b723ad19b, type: 3}
   pickedUp: 0
-  equipped: 0
