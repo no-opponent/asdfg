@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
+	3187507146	Play_Test			\Default Work Unit\Play_Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	171612331	Amb_Forge	Z:\Users\Shared\GitHub\Test123\Test123_WwiseProject\.cache\Windows\SFX\Amb_Forge_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Forge		569938
+	1000438496	Woodlands_Day_Amb_QuadBNC_EQ	Z:\Users\Shared\GitHub\Test123\Test123_WwiseProject\.cache\Windows\SFX\Woodlands_Day_Amb_QuadBNC_EQ_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Woodlands_Day_Amb_QuadBNC_EQ		11344032
+

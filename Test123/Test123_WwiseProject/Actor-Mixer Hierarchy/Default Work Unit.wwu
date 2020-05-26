@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9EDDD3EB-191C-45BC-AEED-1029CA73F525}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9EDDD3EB-191C-45BC-AEED-1029CA73F525}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Amb_Forge" ID="{A2D61F55-6464-4BC8-AA91-2B88E125762C}" ShortID="914833131">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Test" ID="{A2B42E1D-176C-4F54-9948-DC789DF208C8}" WorkUnitID="{AA599359-2AE8-41F2-A503-93909D643B9F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE68E17F-2024-4C25-BB8D-63923A9926B1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{412AE889-8643-4B88-B1E4-6FA0DA57772D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Amb_Forge" ID="{E2E3B9F7-CC1D-41E1-9485-6C15A982C603}">
+							<Language>SFX</Language>
+							<AudioFile>Amb_Forge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="171612331"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{B74AAAFB-8282-4A1A-9561-6C0AF59F9F3A}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Amb_Forge" ID="{E2E3B9F7-CC1D-41E1-9485-6C15A982C603}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Woodlands_Day_Amb_QuadBNC_EQ" ID="{3D4EEBCB-C625-4E2B-B406-A76811C7C17D}" ShortID="721766484">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Amb" ID="{88C39294-D362-4851-8BE8-B813BA496130}" WorkUnitID="{AA599359-2AE8-41F2-A503-93909D643B9F}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE68E17F-2024-4C25-BB8D-63923A9926B1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{412AE889-8643-4B88-B1E4-6FA0DA57772D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Woodlands_Day_Amb_QuadBNC_EQ" ID="{59EC1179-ECD9-49AC-8721-368007B5BF93}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Woodlands_Day_Amb_QuadBNC_EQ.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1000438496"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{6C860302-9046-479A-B7E8-B7792DDC56B5}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Woodlands_Day_Amb_QuadBNC_EQ" ID="{59EC1179-ECD9-49AC-8721-368007B5BF93}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

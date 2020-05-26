@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/Test123/Test123_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/Test123/Test123_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/Test123/Test123_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/adilcanakcan/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/Shared/GitHub/Test123/Test123_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3157003241" GUID="{1CCC9D05-3D4F-4E2B-A459-5F88F0D2A514}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb" GUID="{16F69D1A-0FB4-4923-9CB4-69A9327CF21F}" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1000438496" Language="SFX">
+							<ShortName>Woodlands_Day_Amb_QuadBNC_EQ.wav</ShortName>
+							<Path>SFX/Woodlands_Day_Amb_QuadBNC_EQ_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{B785873D-AC40-4069-9F2F-E53504618994}" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="171612331" Language="SFX">
+							<ShortName>Amb_Forge.wav</ShortName>
+							<Path>SFX/Amb_Forge_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

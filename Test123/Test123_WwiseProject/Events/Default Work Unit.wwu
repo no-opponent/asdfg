@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E0A3071-4AA0-4D78-96EB-1D04D6EF93BB}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2E0A3071-4AA0-4D78-96EB-1D04D6EF93BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Test" ID="{B785873D-AC40-4069-9F2F-E53504618994}">
+					<ChildrenList>
+						<Action Name="" ID="{8E6E2A5F-D114-48D7-AFED-E697FFF1D294}" ShortID="691921622">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Forge" ID="{A2D61F55-6464-4BC8-AA91-2B88E125762C}" WorkUnitID="{9EDDD3EB-191C-45BC-AEED-1029CA73F525}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb" ID="{16F69D1A-0FB4-4923-9CB4-69A9327CF21F}">
+					<ChildrenList>
+						<Action Name="" ID="{3EC42010-E712-4B48-A0DD-E644EFDBB577}" ShortID="267337664">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woodlands_Day_Amb_QuadBNC_EQ" ID="{3D4EEBCB-C625-4E2B-B406-A76811C7C17D}" WorkUnitID="{9EDDD3EB-191C-45BC-AEED-1029CA73F525}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
