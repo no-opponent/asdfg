@@ -56,7 +56,7 @@ public class Interactable : MonoBehaviour
         {
             inventory.reachableMineable = false;
         }
-    }
+    } 
 
     public void Interact() 
     { 
