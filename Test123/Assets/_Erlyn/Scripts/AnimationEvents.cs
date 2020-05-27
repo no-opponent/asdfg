@@ -25,7 +25,7 @@ public class AnimationEvents : MonoBehaviour
         if (destroy)
         {
             Instantiate(destroyParticles).transform.position = position;
-            Destroy(player.interactable);
+            Destroy(player.interactables[0]);
             destroy = false;
         }
         else
@@ -36,7 +36,7 @@ public class AnimationEvents : MonoBehaviour
     { 
         if (player.holding)
         {
-            player.interactable.GetComponent<Interactable>().Interact(); 
+            player.interactables[0].GetComponent<Interactable>().Interact(); 
         }
     }
 }

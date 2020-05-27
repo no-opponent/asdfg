@@ -26,8 +26,9 @@ public class Interactable : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == player.gameObject)
-        {
-            player.interactable = this.gameObject;
+        { 
+            if (this.gameObject != null && !player.interactables.Contains(this.gameObject))
+                player.interactables.Add(this.gameObject); 
             gm.InteractText(this.gameObject, interactText);
         }
 
@@ -43,8 +44,8 @@ public class Interactable : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject == player.gameObject)
-        {
-            player.interactable = null;
+        { 
+            player.interactables.Remove(this.gameObject);
             gm.InteractText(null, "");
         }
 
@@ -101,6 +102,16 @@ public class Interactable : MonoBehaviour
                     gm.InformationalText("There's no pickaxe equipped"); 
             }
         }
+    }
+
+    private void OnDisable()
+    {
+        player.interactables.Remove(this.gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        player.interactables.Remove(this.gameObject);
     }
 
 }

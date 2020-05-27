@@ -22,9 +22,9 @@ public class PlayerMovement : MonoBehaviour, Controls.IPlayerActions
     public Animator animator;
     //[HideInInspector]
     public string state = "idle";
-
-    [HideInInspector]
-    public GameObject interactable;
+     
+    //[HideInInspector]
+    public List<GameObject> interactables = new List<GameObject>();
 
     void Awake()
     {
@@ -111,7 +111,7 @@ public class PlayerMovement : MonoBehaviour, Controls.IPlayerActions
     {
         if (control.Player.Action.triggered)
         {
-            if (interactable.TryGetComponent<Interactable>(out Interactable interact))
+            if (interactables[0].TryGetComponent<Interactable>(out Interactable interact))
             {
                 interact.Interact();
 

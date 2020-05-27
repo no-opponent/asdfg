@@ -17,7 +17,7 @@ public class Plant_seeds : MonoBehaviour
      
     public bool Plant()
     {
-        Planter planter = player.interactable.GetComponent<Planter>(); 
+        Planter planter = player.interactables[0].GetComponent<Planter>(); 
 
         if ((int)planter.planterQuality >= planterTypeNeeded)
         {
